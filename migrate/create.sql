@@ -1,3 +1,5 @@
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
 CREATE TABLE tasks (
     id uuid NOT NULL,
     PRIMARY KEY (id),
