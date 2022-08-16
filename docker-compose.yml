@@ -15,7 +15,7 @@ services:
       - .:/app
     networks:
       - backend
-    command: go run .
+    command: go run main.go
 
   db:
     image: postgres:14-alpine
@@ -38,8 +38,6 @@ services:
 
 networks:
   backend:
-    external: false
 
 volumes:
   db_data:
-    external: false
