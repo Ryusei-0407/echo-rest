@@ -4,5 +4,5 @@ CREATE TABLE tasks (
     name TEXT NOT NULL UNIQUE,
     details TEXT NOT NULL,
     done BOOLEAN NOT NULL,
-    createdat TIMESTAMPTZ NOT NULLtasks.id 
+    createdat TIMESTAMPTZ NOT NULL
 );
