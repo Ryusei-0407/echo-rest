@@ -1,6 +1,6 @@
 package main
 
-import "myapp/server"
+import "app/server"
 
 func main() {
 	server.Run()

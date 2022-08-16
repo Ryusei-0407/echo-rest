@@ -1,8 +1,8 @@
 package server
 
 import (
-	"myapp/routes"
-	"myapp/routes/task"
+	"app/routes"
+	"app/routes/task"
 
 	"github.com/labstack/echo/v4"
 )

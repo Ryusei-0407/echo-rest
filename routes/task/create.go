@@ -3,7 +3,7 @@ package task
 import (
 	"context"
 	"fmt"
-	"myapp/model"
+	"app/model"
 	"net/http"
 	"os"
 
