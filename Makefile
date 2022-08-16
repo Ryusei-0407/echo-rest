@@ -1,3 +1,6 @@
+test:
+	go test ./*/**_test.go
+
 restart:
 	docker stop echo
 	docker compose up -d
