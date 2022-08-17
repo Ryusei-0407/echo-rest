@@ -10,3 +10,9 @@ run:
 
 down:
 	docker compose down
+
+pause:
+	docker compose pause
+
+unpause:
+	docker compose unpause
