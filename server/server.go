@@ -11,7 +11,7 @@ func Run() {
 	e := echo.New()
 
 	e.GET("/health_check", routes.Health)
-	e.POST("/task/create", task.Create)
+	e.POST("/api/v1/tasks/create", task.Create)
 
 	e.Logger.Fatal(e.Start(":6000"))
 }
